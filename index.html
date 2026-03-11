@@ -18,14 +18,32 @@
     <style type="text/tailwindcss">
         @theme{
             --font-oswald: "Oswald", sans-serif;
+            --color-primary: #FFA500;
         }
     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="font-oswald">
+        <!-- Nav -->
+        <nav class="w-11/12 mx-auto flex justify-between items-center py-6">
+            <div>
+                <img src="assets/Logo.png" alt="">
+            </div>
+            <ul class="flex items-center gap-2 md:gap-7">
+                <li class="font-medium text-xs text-primary">Services</li>
+                <li class="font-normal text-xs">About</li>
+                <li class="font-normal text-xs">Contact</li>
+                <div class="md:bg-black md:rounded-4xl md:p-1">
+                    <button class="font-medium text-xs text-white bg-primary px-2 md:px-4 py-2.5 rounded-3xl md:-ml-1 md:-mt-1">Book a Free Consultation</button>
+                </div>
+            </ul>
+        </nav>
+        <!-- Landing -->
+        <section>
 
+        </section>
     </header>
     <!-- Main -->
     <main>
