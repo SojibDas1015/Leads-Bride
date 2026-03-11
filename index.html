@@ -19,30 +19,45 @@
         @theme{
             --font-oswald: "Oswald", sans-serif;
             --color-primary: #FFA500;
+            --color-primaryBg: #FFA50050;
         }
     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <header class="font-oswald">
+    <header class="font-oswald bg-linear-to-b from-white to-primaryBg">
         <!-- Nav -->
         <nav class="w-11/12 mx-auto flex justify-between items-center py-6">
             <div>
                 <img src="assets/Logo.png" alt="">
             </div>
             <ul class="flex items-center gap-2 md:gap-7">
-                <li class="font-medium text-xs text-primary">Services</li>
-                <li class="font-normal text-xs">About</li>
-                <li class="font-normal text-xs">Contact</li>
-                <div class="md:bg-black md:rounded-4xl md:p-1">
-                    <button class="font-medium text-xs text-white bg-primary px-2 md:px-4 py-2.5 rounded-3xl md:-ml-1 md:-mt-1">Book a Free Consultation</button>
+                <li class="font-medium text-xs md:text-sm text-primary">Services</li>
+                <li class="font-normal text-xs md:text-sm">About</li>
+                <li class="font-normal text-xs md:text-sm">Contact</li>
+                <div class="bg-black rounded-4xl p-1">
+                    <button
+                        class="font-medium text-xs md:text-sm text-white bg-primary px-2 md:px-4 py-2.5 rounded-3xl -ml-1 -mt-1">Book
+                        a Free Consultation</button>
                 </div>
             </ul>
         </nav>
         <!-- Landing -->
-        <section>
-
+        <section class="pt-25 pb-40 w-11/12 mx-auto">
+            <div class="flex items-center justify-center gap-2">
+                <div>
+                    <img src="assets/image 6.png" alt="">
+                </div>
+                <p class="font-normal text-xs md:text-sm">Your Full-Service <span class="text-primary">Amazon Partner</span></p>
+            </div>
+            <h1 class="md:w-[697px] mx-auto font-semibold text-2xl md:text-6xl text-center pt-3">Turn Your Amazon Struggles into
+                Success—Save Time, <span class="text-primary">Maximize Profits!</span></h1>
+            <div class="bg-black rounded-4xl p-1 w-fit mx-auto mt-7">
+                <button
+                    class="font-medium text-xs text-white bg-primary px-3 md:px-7 py-3.5 rounded-3xl -ml-1 -mt-1">Book
+                    a Free Consultation</button>
+            </div>
         </section>
     </header>
     <!-- Main -->
