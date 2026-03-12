@@ -27,42 +27,75 @@
 <body>
     <!-- Header -->
     <header class="font-oswald bg-linear-to-b from-white to-primaryBg">
-        <!-- Nav -->
-        <nav class="w-11/12 mx-auto flex justify-between items-center py-6">
-            <div>
-                <img src="assets/Logo.png" alt="">
+        <!-- Left Bg Image -->
+        <div class="md:bg-[url(/assets/TotalIncomes.png)] md:bg-left md:bg-no-repeat">
+            <!-- right Bg Image -->
+            <div class="md:bg-[url(/assets/ReviewContainer.png)] md:bg-no-repeat md:bg-right">
+                <!-- Nav -->
+                <nav class="w-11/12 mx-auto flex justify-between items-center py-6">
+                    <div>
+                        <img src="assets/Logo.png" alt="">
+                    </div>
+                    <ul class="flex items-center gap-2 md:gap-7">
+                        <li class="font-medium text-xs md:text-sm text-primary">Services</li>
+                        <li class="font-normal text-xs md:text-sm">About</li>
+                        <li class="font-normal text-xs md:text-sm">Contact</li>
+                        <div class="bg-black rounded-4xl p-1">
+                            <button
+                                class="font-medium text-xs md:text-sm text-white bg-primary px-2 md:px-4 py-2.5 rounded-3xl -ml-1 -mt-1">Book
+                                a Free Consultation</button>
+                        </div>
+
+                    </ul>
+                </nav>
+                <!-- Landing -->
+                <section class="pt-25 pb-40 w-11/12 mx-auto ">
+
+                    <div class="flex items-center justify-center gap-2">
+                        <div>
+                            <img src="assets/image 6.png" alt="">
+                        </div>
+                        <p class="font-normal text-xs md:text-sm">Your Full-Service <span class="text-primary">Amazon
+                                Partner</span></p>
+                    </div>
+                    <h1 class="md:w-[697px] mx-auto font-semibold text-2xl md:text-6xl text-center pt-3">Turn Your
+                        Amazon
+                        Struggles into
+                        Success—Save Time, <span class="text-primary">Maximize Profits!</span></h1>
+                    <div class="bg-black rounded-4xl p-1 w-fit mx-auto mt-7">
+                        <button
+                            class="font-medium text-xs text-white bg-primary px-3 md:px-7 py-3.5 rounded-3xl -ml-1 -mt-1">Book
+                            a Free Consultation</button>
+                    </div>
+                </section>
             </div>
-            <ul class="flex items-center gap-2 md:gap-7">
-                <li class="font-medium text-xs md:text-sm text-primary">Services</li>
-                <li class="font-normal text-xs md:text-sm">About</li>
-                <li class="font-normal text-xs md:text-sm">Contact</li>
-                <div class="bg-black rounded-4xl p-1">
-                    <button
-                        class="font-medium text-xs md:text-sm text-white bg-primary px-2 md:px-4 py-2.5 rounded-3xl -ml-1 -mt-1">Book
-                        a Free Consultation</button>
-                </div>
-            </ul>
-        </nav>
-        <!-- Landing -->
-        <section class="pt-25 pb-40 w-11/12 mx-auto">
-            <div class="flex items-center justify-center gap-2">
-                <div>
-                    <img src="assets/image 6.png" alt="">
-                </div>
-                <p class="font-normal text-xs md:text-sm">Your Full-Service <span class="text-primary">Amazon Partner</span></p>
-            </div>
-            <h1 class="md:w-[697px] mx-auto font-semibold text-2xl md:text-6xl text-center pt-3">Turn Your Amazon Struggles into
-                Success—Save Time, <span class="text-primary">Maximize Profits!</span></h1>
-            <div class="bg-black rounded-4xl p-1 w-fit mx-auto mt-7">
-                <button
-                    class="font-medium text-xs text-white bg-primary px-3 md:px-7 py-3.5 rounded-3xl -ml-1 -mt-1">Book
-                    a Free Consultation</button>
-            </div>
-        </section>
+        </div>
     </header>
     <!-- Main -->
     <main>
-
+        <!-- Market Statistics -->
+        <section class="w-11/12 mx-auto font-oswald pt-14 pb-8">
+            <h4 class="text-2xl font-semibold text-center">Amazon Market Statistics Worldwide 2024</h4>
+            <!-- Card -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 pt-5">
+                <div class="flex flex-col items-center items-center py-3 px-7 border-1 border-gray-400 rounded-2xl">
+                    <h2 class="text-[34px] font-semibold">600 million</h2>
+                    <p class="text-base font-normal">Amazon Offers Over Products</p>
+                </div>
+                <div class="flex flex-col items-center items-center py-3 px-7 border-1 border-gray-400 rounded-2xl">
+                    <h2 class="text-[34px] font-semibold">$638.0 billion</h2>
+                    <p class="text-base font-normal">Amazon Global Net Sales Revenue</p>
+                </div>
+                <div class="flex flex-col items-center items-center py-3 px-7 border-1 border-gray-400 rounded-2xl">
+                    <h2 class="text-[34px] font-semibold">11.95 million </h2>
+                    <p class="text-base font-normal">Amazon Handles Orders Daily.</p>
+                </div>
+                <div class="flex flex-col items-center items-center py-3 px-7 border-1 border-gray-400 rounded-2xl">
+                    <h2 class="text-[34px] font-semibold">$1.6 billion</h2>
+                    <p class="text-base font-normal">Amazon Average Daily Sales Revenue</p>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
